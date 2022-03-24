@@ -1,0 +1,58 @@
+body {
+    background-color: #223;
+}
+
+.text-format{
+    font-family: "Menlo", monospace;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.page-topic {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 30px;
+    background-color: rgba(255, 217, 0, 0.57);
+    width: auto;
+    height: auto;
+}
+
+li {
+    display: inline;
+    justify-items: center;
+    margin: auto;
+    padding-left: 5px;
+  }
+
+a {
+    font-family: "Menlo", monospace;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.buttons{
+    padding: 0 45vw;
+    background-color: rgba(255, 217, 0, 0.57);
+}
+
+.encode-decode-box {
+    margin-top: 20px;
+    height: 200px;
+    background-color: rgba(255, 217, 0, 0.57);
+}
+
+.box {
+    width: fit-content;
+}
+
+.tool-desc, .footer{
+    margin-top: 10%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encoder-decoders.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script defer src="MD5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <title>MD5 Hash Generator</title>
+</head>
+<body>
+    <div class="header">
+        <ul>
+          <li><a href="url-encoder-decoder.html">URL Encoder</a></li>
+          <li><a href="base64encoder-decoder.html">Base64 Encoder/Decoder</a></li>
+          <li><a href="sha-1.html">SHA-1 Hash Generator</a></li>
+          <li><a href="sha-256.html">SHA-256 Hash Generator</a></li>
+          <li><a href="sha-512.html">SHA-512 Hash Generator</a></li>
+    </div>
+
+    <div class="page-topic">
+        <p class="text-format">MD5 Hash Generator</p>
+    </div>
+
+    <div class="encode-decode-box">
+            <input type="text" class="box" id="input" placeholder="Enter string to be hashed">
+            <input type="text" class="box" id="output" placeholder="result will appear here">
+    </div>
+
+    <div class="buttons">
+        <input type="button" value="Encode" id="encode-btn">
+    </div>    
+
+    <div class="tool-desc">
+        <p class="text-format">What is MD5 Hash Generator?</p>
+        <p class="text-format">- An MD5 hash is created by taking a string of an any length and encoding it into a 128-bit fingerprint. Encoding the same string using the MD5 algorithm will always result in the same 128-bit hash output. </p>
+        <p class="text-format">- YMD5 hashes are commonly used with smaller strings when storing passwords, credit card numbers or other sensitive data in databases such as the popular MySQL.</p>
+        <p class="text-format">- An MD5 hash is NOT encryption. It is simply a fingerprint of the given input. However, it is a one-way transaction and as such it is almost impossible to reverse engineer an MD5 hash to retrieve the original string.</p>
+    </div>
+
+    <div class="footer">
+        <p class="text-format">Made by @pratkabra with ❤️ and a lot of caffeine</p>
+    </div>
+</body>
+</html>

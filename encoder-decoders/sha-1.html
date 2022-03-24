@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encoder-decoders.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script defer src="sha-1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <title>SHA-1 Hash Generator</title>
+</head>
+<body>
+    <div class="header">
+        <ul>
+          <li><a href="url-encoder-decoder.html">URL Encoder</a></li>
+          <li><a href="base64encoder-decoder.html">Base64 Encoder/Decoder</a></li>
+          <li><a href="MD5.html">MD5 Hash Generator</a></li>
+          <li><a href="sha-256.html">SHA-256 Hash Generator</a></li>
+          <li><a href="sha-512.html">SHA-512 Hash Generator</a></li>
+    </div>
+
+    <div class="page-topic">
+        <p class="text-format">SHA-1 Hash Generator</p>
+    </div>
+
+    <div class="encode-decode-box">
+            <input type="text" class="box" id="input" placeholder="Enter string to be hashed">
+            <input type="text" class="box" id="output" placeholder="result will appear here">
+    </div>
+
+    <div class="buttons">
+        <input type="button" value="Encode" id="encode-btn">
+    </div>    
+
+    <div class="tool-desc">
+        <p class="text-format">What is SHA-1 Hash Generator?</p>
+        <p class="text-format">- SHA-1 (Secure Hash Algorithm) is a 160 bit cryptographic hash function created by the NSA in 1995. It creates a 40 byte hash value for the input of the algorithm.</p>
+        <p class="text-format">- SHA-1 is one-way, meaning that the original input cannot be determined simply by knowing the hash value.</p>
+    </div>
+
+    <div class="footer">
+        <p class="text-format">Made by @pratkabra with ❤️ and a lot of caffeine</p>
+    </div>
+</body>
+</html>
